@@ -14,7 +14,7 @@ class CharacterController extends Controller
      */
     public function index()
     {
-        return view('characters.index');
+        return view('characters.index')->with('characters', Character::all());
     }
 
     /**
