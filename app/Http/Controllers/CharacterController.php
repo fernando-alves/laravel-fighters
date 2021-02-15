@@ -35,7 +35,11 @@ class CharacterController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Character::create([
+            'name' => $request->input('name')
+        ]);
+
+        return redirect()->route('characters.index');
     }
 
     /**

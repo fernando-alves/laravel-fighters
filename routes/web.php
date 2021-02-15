@@ -15,3 +15,5 @@ use App\Http\Controllers\CharacterController;
 */
 
 Route::get('/', [CharacterController::class, 'index']);
+
+Route::resource('characters', CharacterController::class);
