@@ -6,7 +6,7 @@ Laravel-Fighters is a simple application that let's you list your favourite Stre
 
 This app was built with:
 
-- PHP v7
+- [PHP v7](https://www.php.net/downloads.php#v7.4.15)
 - [Composer v2](https://getcomposer.org/)
 ## Setup
 
