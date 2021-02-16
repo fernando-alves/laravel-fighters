@@ -3,6 +3,7 @@
 namespace Tests\Unit;
 
 use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 use App\Http\Controllers\CharacterController;
@@ -10,6 +11,9 @@ use App\Models\Character;
 
 class CharacterControllerTest extends TestCase
 {
+
+    use RefreshDatabase;
+
     public function test_creates_character_from_name()
     {
         $request = Request::create('/store', 'POST',['name' => 'ryu']);
