@@ -28,7 +28,7 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
-    - name: Execute tests (Unit and Feature tests) via PHPUnit
+    - name: Lint check
       run: vendor/bin/phplint
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
