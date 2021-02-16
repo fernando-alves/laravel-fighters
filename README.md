@@ -13,7 +13,7 @@ This app was built with:
 As a standard [Laravel](https://laravel.com/), you'll need to:
 
 - Install dependencies: `composer install`
-- Configure database: Laravel supports many options, by default this project uses mySQL. For details on how to configure the database check [this tutorial](https://laravel.com/docs/8.x/database).
+- Configure database: Laravel supports many options, by default this project uses [MySQL](https://www.mysql.com/). For details on how to configure the database check [this tutorial](https://laravel.com/docs/8.x/database).
 - Run database migrations: `php artisan migrate`
 ## Testing
 
