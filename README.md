@@ -1,6 +1,6 @@
 # About Laravel-Fighters
 
-Laravel-Fighters is a simple application that let's you list your favourite Street Fighter characters.
+Laravel-Fighters is an application that let's you list your favourite Street Fighter characters.
 
 ## Requirements
 
