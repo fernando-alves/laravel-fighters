@@ -35,10 +35,6 @@ class CharacterController extends Controller
      */
     public function store(Request $request)
     {
-        $validated = $request->validate([
-            'name' => 'required'
-        ]);
-
         Character::create([
             'name' => $request->input('name')
         ]);
